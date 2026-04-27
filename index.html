@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Biodiagnostic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= TOP BAR ================= -->
+<div class="topbar">
+  <div class="container">
+    <span>
+      📞 <a href="tel:01******">01-******</a> |
+      <a href="tel:9747227865">9747227865</a>
+    </span>
+
+    <span>
+      ✉️ <a href="mailto:ebiodiagnosticlab@gmail.com">
+        ebiodiagnosticlab@gmail.com
+      </a>
+    </span>
+
+    <button onclick="goToReport()">VIEW TEST REPORT</button>
+  </div>
+</div>
+
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+
+  <!-- LEFT MENU -->
+  <ul class="nav-left">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#labs">Labs</a></li>
+    <li><a href="#packages">Health Packages</a></li>
+  </ul>
+
+  <!-- LOGO -->
+  <div class="logo">
+    <a href="#home">
+      <img src="Image/logo.png" alt="E-Biodiagnostic Logo">
+    </a>
+  </div>
+
+  <!-- RIGHT MENU -->
+  <ul class="nav-right">
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+</nav>
+
+
+<!-- ================= HERO / SLIDER ================= -->
+<section id="home" class="hero">
+
+  <div class="slide active">
+    <img src="Image/img1.jpeg" alt="Lab Image 1">
+    <div class="overlay">
+      <h1>Advanced Diagnostic Lab</h1>
+      <p>Accurate & Trusted Reports</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="Image/img2.jpeg" alt="Lab Image 2">
+    <div class="overlay">
+      <h1>Quality Healthcare</h1>
+      <p>We Care For You</p>
+    </div>
+  </div>
+
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</section>
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="certifications">
+  <img src="" alt="ISO">
+  <img src="" alt="ILAC">
+  <img src="" alt="QAI">
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+<section id="labs" class="services">
+  <h2>Our Lab Services</h2>
+
+  <div class="cards">
+    <div class="card">Blood Test</div>
+    <div class="card">X-Ray</div>
+    <div class="card">CT Scan</div>
+  </div>
+</section>
+
+
+<!-- ================= PACKAGES ================= -->
+<section id="packages" class="services">
+  <h2>Health Packages</h2>
+
+  <div class="cards">
+    <div class="card">Basic Package</div>
+    <div class="card">Full Body Checkup</div>
+    <div class="card">Advanced Package</div>
+  </div>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>
+    Write your lab description here. Add certifications, experience,
+    and trust factors.
+  </p>
+</section>
+
+
+<!-- ================= NEWS ================= -->
+<section id="news" class="about">
+  <h2>News</h2>
+  <p>Latest updates will appear here.</p>
+</section>
+
+
+<!-- ================= BLOGS ================= -->
+<section id="blogs" class="about">
+  <h2>Blogs</h2>
+  <p>Health blogs will appear here.</p>
+</section>
+
+
+<!-- ================= CONTACT (ADVANCED) ================= -->
+<section id="contact" class="contact">
+
+  <h2>Contact Us</h2>
+
+  <div class="contact-container">
+
+    <!-- ===== LEFT: CONTACT INFO ===== -->
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+
+      <p>📞 <a href="tel:014536400">01-4536400</a></p>
+      <p>📱 <a href="tel:9747227865">9747227865</a></p>
+      <p>✉️ <a href="mailto:ebiodiagnosticlab@gmail.com">ebiodiagnosticlab@gmail.com</a></p>
+      <p>📍 Sukedhara, Kathmandu</p>
+    </div>
+
+    <!-- ===== RIGHT: FORM WRAPPER (IMPORTANT) ===== -->
+    <div class="contact-form">
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        
+        <input type="hidden" name="access_key" value="1c66c8eb-bec9-47d8-b919-1bf044038e83">
+
+        <!-- EMAIL SETTINGS -->
+        <input type="hidden" name="subject" value="New Contact Message from E-Biodiagnostic">
+        <input type="hidden" name="from_name" value="E-Biodiagnostic Website">
+
+        <!-- BOT PROTECTION -->
+        <input type="checkbox" name="botcheck" style="display:none;">
+
+        <!-- NAME -->
+        <input 
+          type="text" 
+          name="name" 
+          placeholder="Your Name" 
+          required
+        >
+
+        <!-- EMAIL -->
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="Your Email" 
+          required
+        >
+
+        <!-- SUBJECT -->
+        <input 
+          type="text" 
+          name="user_subject" 
+          placeholder="Subject" 
+          required
+        >
+
+        <!-- MESSAGE -->
+        <textarea 
+          name="message" 
+          placeholder="Your Message" 
+          rows="5" 
+          required
+        ></textarea>
+
+        <!-- SUBMIT -->
+        <button type="submit">Send Message</button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2026 E-Biodiagnostic Lab, Kathmandu, Nepal. All rights reserved.</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
